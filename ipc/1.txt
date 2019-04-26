@@ -1,0 +1,10 @@
+https://blog.csdn.net/wuyuxing24/article/details/48758927
+http://blog.chinaunix.net/uid-26722078-id-3793149.html
+
+https://blog.csdn.net/lcalqf/article/details/80665199
+
+//epoll+d多线程服务器
+https://blog.csdn.net/qq_25425023/article/details/70199133
+https://www.cnblogs.com/cthon/p/9139384.html
+http://www.cnblogs.com/skyofbitbit/p/3688917.html
+https://www.oschina.net/code/snippet_1987090_44422//动态增加线程
