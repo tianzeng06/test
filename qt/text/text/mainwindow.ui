@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>793</width>
+    <height>413</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="styleSheet">
+       <string notr="true">
+	background-image: url(:/new/prefix1/images/timg.jpeg);
+	font: 57 11pt &quot;Ubuntu&quot;;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>793</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menufile_F">
+    <property name="title">
+     <string>file(&amp;F)</string>
+    </property>
+    <addaction name="actionnew_N"/>
+    <addaction name="actionopen_O"/>
+    <addaction name="actionsave_S"/>
+    <addaction name="actionsave_as_SA"/>
+    <addaction name="separator"/>
+    <addaction name="actionprint_P"/>
+    <addaction name="actionexit_E"/>
+   </widget>
+   <widget class="QMenu" name="menuedit_E">
+    <property name="title">
+     <string>edit(&amp;E)</string>
+    </property>
+    <addaction name="actionselect"/>
+    <addaction name="actioncopy_c"/>
+    <addaction name="actioncut"/>
+    <addaction name="actionpaste_v"/>
+    <addaction name="separator"/>
+    <addaction name="actiondate_D"/>
+   </widget>
+   <widget class="QMenu" name="menucolor">
+    <property name="title">
+     <string>sytle</string>
+    </property>
+    <addaction name="actionfont"/>
+    <addaction name="actioncolor"/>
+   </widget>
+   <widget class="QMenu" name="menuhelp_H">
+    <property name="title">
+     <string>help(&amp;H)</string>
+    </property>
+    <addaction name="actionabout_qt_a"/>
+    <addaction name="actionabout_us_AA"/>
+    <addaction name="actionabout_soft_AS"/>
+   </widget>
+   <addaction name="menufile_F"/>
+   <addaction name="menuedit_E"/>
+   <addaction name="menucolor"/>
+   <addaction name="menuhelp_H"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionnew_N"/>
+   <addaction name="separator"/>
+   <addaction name="actionopen_O"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionnew_N">
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/new/prefix1/images/timg (1).jpeg</normaloff>:/new/prefix1/images/timg (1).jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>new(&amp;N)</string>
+   </property>
+  </action>
+  <action name="actionopen_O">
+   <property name="icon">
+    <iconset resource="resourse.qrc">
+     <normaloff>:/new/prefix1/images/u=3533882817,4081823563&amp;fm=26&amp;gp=0.jpg</normaloff>:/new/prefix1/images/u=3533882817,4081823563&amp;fm=26&amp;gp=0.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>open(&amp;O)</string>
+   </property>
+  </action>
+  <action name="actionsave_S">
+   <property name="text">
+    <string>save(&amp;S)</string>
+   </property>
+  </action>
+  <action name="actionprint_P">
+   <property name="text">
+    <string>print(&amp;P)</string>
+   </property>
+  </action>
+  <action name="actionsave_as_SA">
+   <property name="text">
+    <string>save as(&amp;SA)</string>
+   </property>
+  </action>
+  <action name="actionexit_E">
+   <property name="text">
+    <string>exit</string>
+   </property>
+  </action>
+  <action name="actiondate_D">
+   <property name="text">
+    <string>date(&amp;D)</string>
+   </property>
+  </action>
+  <action name="actioncopy_c">
+   <property name="text">
+    <string>copy(&amp;c)</string>
+   </property>
+  </action>
+  <action name="actionpaste_v">
+   <property name="text">
+    <string>paste(&amp;v)</string>
+   </property>
+  </action>
+  <action name="actionselect">
+   <property name="text">
+    <string>select</string>
+   </property>
+  </action>
+  <action name="actioncut">
+   <property name="text">
+    <string>cut</string>
+   </property>
+  </action>
+  <action name="actionfont">
+   <property name="text">
+    <string>font</string>
+   </property>
+  </action>
+  <action name="actioncolor">
+   <property name="text">
+    <string>color</string>
+   </property>
+  </action>
+  <action name="actionabout_qt_a">
+   <property name="text">
+    <string>about qt(&amp;a)</string>
+   </property>
+  </action>
+  <action name="actionabout_us_AA">
+   <property name="text">
+    <string>about us(&amp;AA)</string>
+   </property>
+  </action>
+  <action name="actionabout_soft_AS">
+   <property name="text">
+    <string>about soft(&amp;AS)</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resourse.qrc"/>
+ </resources>
+ <connections/>
+</ui>
