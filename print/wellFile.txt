@@ -1,0 +1,3 @@
+/home/ctz/work/1.txt
+/home/ctz/work/2.txt
+/home/ctz/work/1.txt
